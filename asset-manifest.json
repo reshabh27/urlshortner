@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/urlshortner/static/css/main.dc962818.css",
+    "main.js": "/urlshortner/static/js/main.13d93b26.js",
+    "static/media/download.png": "/urlshortner/static/media/download.7ad9999d79492c282a4b.png",
+    "index.html": "/urlshortner/index.html",
+    "main.dc962818.css.map": "/urlshortner/static/css/main.dc962818.css.map",
+    "main.13d93b26.js.map": "/urlshortner/static/js/main.13d93b26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc962818.css",
+    "static/js/main.13d93b26.js"
+  ]
+}
