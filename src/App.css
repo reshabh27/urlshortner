@@ -1,38 +1,100 @@
+/* import "bootstrap/dist/css/bootstrap.min.css"; */
+
+body {
+  background-color: #6cdcf6 !important;
+  /* background-color: #507598; */
+}
+
+.cmpContainer {
+  /* border: 2px solid black; */
+  width: 70%;
+  margin: 20px auto;
+  padding: 40px;
+  background-color: #fbfffe;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* table styling */
+
+.styled-table {
+  border-collapse: collapse;
+  margin: -10px auto 50px;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+/* input boxes */
+
+input {
+  margin-right: 15px !important;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.36);
+  border-radius: 4px;
+  color: #161c34;
+  font-size: 20px;
+  height: 45px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  
+  box-shadow: 0 14px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+button {
+  margin-left: 30px;
+  padding: 10px 60px;
+  /* background-color: rgb(198, 198, 237); */
+  /* border-radius: 2px !important; */
+  background-color: #0d6efd;
+  color: #f9f9f9;
+  font-weight: bold;
+}
+
+.titles {
+  margin-bottom: 20px;
+}
+
+
+
+.shortbox{
+    margin: 5px;
 }
